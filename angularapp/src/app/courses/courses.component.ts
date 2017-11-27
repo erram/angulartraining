@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { ICourse } from './course/course.component';
+
+export interface ICourseContainer {
+  courses: ICourse[];
+}
 
 @Component({
   selector: 'app-courses',
